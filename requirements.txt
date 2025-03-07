@@ -1,0 +1,6 @@
+streamlit
+langchain
+huggingface-hub
+chromadb
+beautifulsoup4
+gradio
