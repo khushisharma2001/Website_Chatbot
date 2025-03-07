@@ -1,0 +1,20 @@
+Overview
+The OHSL Chat Bot is an AI-powered chatbot designed using LLM-based search engines and frameworks like LangChain and LLaMA. This project explores how large language models improve user interactions by providing contextually relevant responses and enhancing search precision.
+
+Features
+Web Scraping & Data Extraction: A Python script scrapes and processes textual and image data from the OHSL website.
+Data Preprocessing & Vector Embeddings: Converts scraped data into vector embeddings using sentence-transformers/all-MiniLM-L6-v2.
+LLM Integration: Implements the daryl149/llama-2-7b-chat-hf model for intelligent query resolution.
+Efficient Query Processing: Uses vector similarity searches for accurate and relevant responses.
+User-Friendly Interface: Gradio-based UI for seamless user interactions.
+Technologies Used
+LLM Models: LLaMA-2, LangChain
+Web Scraping: BeautifulSoup, Requests
+Vector Embeddings: Hugging Face Transformers
+Query Processing: LangChain + LlamaIndex
+Frontend: Gradio
+Key Learnings
+Practical application of LLMs in chatbot development
+Effective data extraction and preprocessing techniques
+Optimized model selection for performance and feasibility
+Building an interactive UI for AI-based applications
